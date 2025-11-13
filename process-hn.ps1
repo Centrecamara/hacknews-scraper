@@ -1,6 +1,10 @@
 # HN帖子处理脚本 (PowerShell版本)
 # 用法: .\process-hn.ps1 <HN_POST_ID> [-Format <json|md>] [-NoAnalyze]
 
+# 设置输出编码为 UTF-8，确保正确处理中文字符
+$OutputEncoding = New-Object -typename System.Text.UTF8Encoding
+[Console]::OutputEncoding = New-Object -typename System.Text.UTF8Encoding
+
 param(
     [Parameter(Mandatory=$true)]
     [string]$HNPostId,
@@ -83,7 +87,7 @@ $hnContent"
     # 生成输出文件名
     $promptOutput = "output/final-prompt-hn-post-$HNPostId-$Format.txt"
 
-    # 保存最终prompt到文件
+    # 保存最终prompt到文件，使用 UTF8 编码
     $finalPrompt | Out-File -FilePath $promptOutput -Encoding UTF8
     Write-Host "最终prompt已保存到: $promptOutput"
 
